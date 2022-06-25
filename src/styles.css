@@ -1,0 +1,46 @@
+.chat, .chat-screen {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.chat-screen {
+  width: 350px !important;
+  height: 600px;
+  background-color: rgb(247, 234, 245);
+  border-radius: 20px !important;
+}
+
+.header {
+  width: auto;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 25, 0);
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 32px;
+  border-radius: 20px !important;
+}
+
+.text-msg {
+  background-color: #fff;
+  margin-left: 10px !important;
+  padding: 5px !important;
+  width: 90%;
+  height: auto;
+  border-radius: 15px !important;
+  text-align: left;
+  font-size: 20px;
+}
+
+.button-msg {
+  margin-left: 30px !important;
+  margin-bottom: 10px !important;
+  padding: 5px !important;
+  width: 90%;
+  height: auto;
+  border: 1px black solid !important;
+  border-radius: 15px !important;
+  text-align: right;
+  font-size: 20px;
+}
